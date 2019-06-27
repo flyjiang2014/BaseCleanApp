@@ -13,5 +13,5 @@
      11 图片拍照相册功能
      12 dialog
      13 agentweb(WebView)
-     14 adapter012
+     14 adapter
 

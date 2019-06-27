@@ -1,0 +1,21 @@
+
+ 1 在项目同级别路径下新建一个 branches文件夹，commit提交
+ 2 主项目右击，点击 Branch/Tag
+ 3 To path 里填上 “/branches/复制的主项目文件夹”，点击 OK
+ 4 右击 update更新整个项目
+ (这一步相当于复制了主项目到 一个分支 里)
+ 5 用AS 打开branches 项目，并做修改
+ 6 修改OK后，右击/branches/复制的主项目文件夹（如果此时主项目有更新的话） ，点击 Merge,Next. URL to merge from 里填  （主项目svn地址），Next,Merge ,Ok
+    （这一步是将主项目的代码 合并到 branches 中来）
+ 7 /branches/复制的主项目文件夹  commit 更新
+    （这一步是将分支的代码提交即可）
+  如果branch开发结束,将branch合并回trunk（主项目）了，当然，如果branch还要继续开发，那你将不断地重复5-7 步骤。
+
+ 8 在 主项目文件夹 update 后，右击，Merge, Next， URL to merge from 里填 （分支的svn 项目地址），
+   （这一步将branch合并回trunk（主项目）了 ）
+ 点Next,Merge,Ok （Merge type选择第二项"Reintegrate a branch"，这种类型的合并适合在分支开发结束后将所有的改动合并回主线。）
+
+ 9 主项目文件夹commit 更新 。
+
+  1 分支版本用于新功能开发
+  2 主项目作为线上版本开发

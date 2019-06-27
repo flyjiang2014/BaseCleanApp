@@ -1,0 +1,45 @@
+   文件夹上传
+
+               1 先删掉build文件，.gradle   .idea文件，.imi文件，local.properties（包含一些大文件上传慢），后面可以自动编译生成
+
+               2 去网站建一个 项目地址 （仓库地址），名字不必与项目文件夹一样。
+
+               3 复制生成的地址，
+
+              4 在需要上传的项目 RateHalfCircleView文件夹 （整个项目文件夹），点import.
+
+                在弹窗上粘贴复制的地址，并且后面再加个 RateHalfCircleView（项目文件夹名字，这样可以保证仓库的项目文件名与本地一致），点击OK上传。
+
+                （或者第二步骤的时候建一个与项目名字一样的仓库地址，第四步骤就不用再加项目名字了）
+
+
+              5 上传完在 RateHalfCircleView文件夹  右击 点checkout.
+
+                此时注意：URL of repository 与 步骤4中一致，checkout directory 应该是当前项目的路径 （列如 D:\RateHalfCircleView）,
+
+                如有弹窗，直接点正常的步骤。
+
+              6 svn关联完毕
+
+              7 将相应的文件忽略一下， （.gradle   .idea文件，.imi文件，local.properties）
+
+              8重新commit下
+
+               一般需要忽略的文件如下：
+              1、.idea文件夹
+              2、.gradle文件夹
+              3、所有的build文件夹
+              4、所有的.iml文件
+              5、local.properties文件
+
+              Android Studio添加
+              1 工具栏 VCS ——import into Version Control - Share Project （SubVersion）(注意不要用import into SubVersion选项)
+              2 弹窗后添加仓库地址，分支选择带完整项目名文件夹的即可。（注意此时代码还未上传）
+              3 到项目的文件夹目录下，Commit下提交
+              4设置忽略文件后重新提交一下
+
+
+
+
+
+

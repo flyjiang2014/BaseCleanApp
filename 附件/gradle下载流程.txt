@@ -1,0 +1,4 @@
+﻿ 1 打开工程前手动删除  gradle 文件夹
+ 2 引入工程时选择 “OK”，调用本地默认的 gradle
+ 3 若报错，看提示需要哪个版本 ，如需要3.3 ，去网上下一个
+ 4 然后直接放在C:\Users\用户名\.gradle\wrapper\dists\gradle-3.3-all\xxxxxxxxxxxxxx文件下（这里注意不要解压缩），然后重新编译就可以了

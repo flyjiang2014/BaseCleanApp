@@ -1,0 +1,57 @@
+﻿//动画
+https://github.com/airbnb/lottie-android
+
+//android design library提供的TabLayout的用法
+http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0731/3247.html
+
+http://www.cocoachina.com/bbs/read.php?tid=458867  支付宝和微信支付
+http://www.qinyejun.com/android/android-alipay/
+
+
+如果你认真看完本文，以下几个问题你将会有答案：
+什么是Https，为什么要使用Https，SSL/TLS 协议又是什么
+什么是对称加密、非对称加密，各自的优缺点
+什么是中间人攻击，Https的加密方案是什么，如何防止中间人攻击
+什么是CA、证书、证书链，证书如何吊销
+数字签名又是什么，与证书什么关系
+TLS/SSL 如何握手，以及握手传递的参数
+什么是单向认证、双向认证，有什么区别
+什么是自签名证书，如何认证自签名证书，自签名证书安全吗
+Https对性能的损耗有多大，如何优化
+Https如何抓包，抓包的数据如何看懂是什么意思
+http://blog.csdn.net/jeasonlzy/article/details/74273516
+
+https://juejin.im/entry/58466f9fac502e006bb275e0/view      Android 自定义 View 合集
+http://blog.csdn.net/aigestudio/article/details/41316141
+http://blog.csdn.net/aigestudio
+
+http://www.jianshu.com/p/e9fccf62deac
+自定义布局---TimeTableLayout（课程表布局）
+
+http://www.jianshu.com/p/7ebbcc0c5df7 Android手机直播（一）总览
+
+Android各大手机品牌手机跳转到权限管理界面
+http://www.jianshu.com/p/b5c494dba0bc
+
+http://www.jianshu.com/p/3442a0b2eee1 部分开源库介绍
+
+//编码规范
+https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247486422&idx=1&sn=
+ef3bd0169fbfe7838861957732e22fc5&chksm=96cdaa9ba1ba238d9f0bb1e4d4f6578a676c2928718f9093258ac4546fe0fd40007f31aba9a7&
+mpshare=1&scene=23&srcid=0815ml4tXNgSJiYDA5KsABGk#rd
+
+//性能优化教程
+http://mp.weixin.qq.com/s?__biz=MzI3Mzc4ODQ3Mw==&mid=2247483703&idx=1&sn=dbd9f241aefc8b467b64689984f4082b&chksm=eb1cba61dc6b3377b5cdfef9bf163edaa77a23c215689e8daf1bdc33b3f18c0464ba22c40b05
+&mpshare=1&scene=23&srcid=0914ZYFZHEe7G8F7FmQAF32C#rd
+
+http://www.jcodecraeer.com/plus/list.php?tid=31&codecategory=2000 //开源日历及其他源码
+
+GitHub上受欢迎的Android UI Library
+https://www.jianshu.com/p/da1ca645b95c?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+
+Rxjava全面介绍
+https://www.jianshu.com/p/cd984dd5aae8
+
+Android 开发工具
+http://www.androiddevtools.cn/
+

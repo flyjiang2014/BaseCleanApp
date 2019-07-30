@@ -22,3 +22,7 @@
  5 点击push,弹出Push Branches,Arbitary loacation,填入git仓库地址url,
 
  6 等待提交成功。
+
+ 7 点击gui Remote,点击add,弹窗后输入name 和 仓库地址，新建了一个remote，
+
+   下次Push选择该remote提交即可

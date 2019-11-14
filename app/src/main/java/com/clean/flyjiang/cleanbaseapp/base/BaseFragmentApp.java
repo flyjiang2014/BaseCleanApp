@@ -16,6 +16,7 @@ import com.clean.flyjiang.cleanbaseapp.widget.loading.LoadingLayout;
  * 时间: 2015/7/1 14:09
  * 说明: 基于APP的Fragment,最低API为11
  */
+@Deprecated
 public abstract class BaseFragmentApp extends Fragment {
     protected View rootView;
     protected Context mContext;

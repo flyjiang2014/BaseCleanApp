@@ -40,24 +40,24 @@ android {
 
 
 dependencies {
-//    https://github.com/scwang90/SmartRefreshLayout
+    //    https://github.com/scwang90/SmartRefreshLayout
     /*https://github.com/bumptech/glide*/
     /* http://blog.csdn.net/jiangxuqaz/article/details/50421754
-       https://mrfu.me/2016/02/27/Glide_Getting_Started/  glide 教程*/
-//    https://github.com/sfsheng0322/GlideImageView
-//    implementation 'com.sunfusheng:glideimageview:1.1.0'
+           https://mrfu.me/2016/02/27/Glide_Getting_Started/  glide 教程*/
+    //    https://github.com/sfsheng0322/GlideImageView
+    //    implementation 'com.sunfusheng:glideimageview:1.1.0'
     /* https://github.c om/jeasonlzy/okhttp-OkGo*/
     //网络请求
     /*   https://github.com/jeasonlzy/ImagePicker*/
     //图片拍照相册功能
     /* https://github.com/weavey/LoadingLayoutDemo*/
-   // compile 'com.zhy:autolayout:1.4.5'*/   //适配布局
+    // compile 'com.zhy:autolayout:1.4.5'*/   //适配布局
     /*https://github.com/Blankj/AndroidUtilCode*/
     /*https://juejin.im/entry/583cf7bac59e0d006b477dff 相关说明*/
     //各种工具类
     /* https://github.com/hss01248/DialogUtil*/
     // Dialog控件
-  /*  https://github.com/Justson/AgentWeb*/
+    /*  https://github.com/Justson/AgentWeb*/
     //WebView
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'

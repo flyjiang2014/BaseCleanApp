@@ -12,7 +12,6 @@
 
                 （或者第二步骤的时候建一个与项目名字一样的仓库地址，第四步骤就不用再加项目名字了）
 
-
               5 上传完在 RateHalfCircleView文件夹  右击 点checkout.
 
                 此时注意：URL of repository 与 步骤4中一致，checkout directory 应该是当前项目的路径 （列如 D:\RateHalfCircleView）,

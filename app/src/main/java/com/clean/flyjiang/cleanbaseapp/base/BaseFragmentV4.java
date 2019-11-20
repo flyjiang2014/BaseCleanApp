@@ -42,7 +42,7 @@ public abstract class BaseFragmentV4 extends Fragment {
         if (rootView == null) {
             rootView = initView(inflater);
         }
-        if(isUseLoading){
+        if (isUseLoading && mLoadingLayout == null) {
             mLoadingLayout = (LoadingLayout) inflater.inflate(R.layout.loading_layout, null);
             mLoadingLayout.addView(rootView,0); //自定义的界面加载到最底层
             mLoadingLayout.setOnReloadListener(new LoadingLayout.OnReloadListener() { //load点击重试功能
@@ -86,8 +86,14 @@ public abstract class BaseFragmentV4 extends Fragment {
         super.onDestroyView();
         isVisible = false;
         isPrepared = false;
-        if (rootView != null && rootView.getParent() != null) {
-            ((ViewGroup) rootView.getParent()).removeView(rootView);
+        if (isUseLoading) {
+            if (mLoadingLayout != null && mLoadingLayout.getParent() != null) {
+                ((ViewGroup) mLoadingLayout.getParent()).removeView(mLoadingLayout);
+            }
+        } else {
+            if (rootView != null && rootView.getParent() != null) {
+                ((ViewGroup) rootView.getParent()).removeView(rootView);
+            }
         }
     }
 
